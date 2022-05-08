@@ -1,7 +1,7 @@
 import os
 
-f_original = open("folder_list_want_to_be_in_subfolder", 'r')
-f_target = open("target_folder_names", 'r')
+f_original = open("folder_list_want_to_be_in_subfolder.csv", 'r')
+f_target = open("target_folder_names.csv", 'r')
 f_secrets = open("secrets.txt", 'r')
 
 target_lines = ''.join(f_target.readlines()).split('\n')

@@ -20,6 +20,9 @@ git filter-branch --tree-filter 'if [ -f old ]; then mkdir dir && mv old dir/new
 ## License
 MIT
 
+## TODO
+* Feature to change any file's path
+
 
 ---
 https://github.com/newren/git-filter-repo
