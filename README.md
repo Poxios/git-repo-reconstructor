@@ -13,7 +13,9 @@
 Original file name + file hash | commit hash
 
 ### Sequence
-* 
+```
+git filter-branch --tree-filter 'if [ -f old ]; then mkdir dir && mv old dir/new; fi' HEAD
+```
 
 ## License
 MIT
