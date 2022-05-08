@@ -19,3 +19,7 @@ git filter-branch --tree-filter 'if [ -f old ]; then mkdir dir && mv old dir/new
 
 ## License
 MIT
+
+
+---
+https://github.com/newren/git-filter-repo
